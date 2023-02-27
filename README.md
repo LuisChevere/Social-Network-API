@@ -40,7 +40,7 @@ SO THAT my website can handle large amounts of unstructured data
   
   
   ## License
-
+  This application uses the Unlicensed license.
 
   ## Questions
   Github: [@LuisChevere](https://github.com/LuisChevere)
