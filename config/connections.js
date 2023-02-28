@@ -1,4 +1,4 @@
-const { connect, connection } = require('mongoose');
+const { connect, connections } = require('mongoose');
 
 const connectionString = process.env.MONGODB_URI || 'mongodb://localhost:27017/socialDB';
 
@@ -7,4 +7,4 @@ connect(connectionString, {
     useUnifiedTopology: true,
 });
 
-module.exports = connection;
+module.exports = connections;
