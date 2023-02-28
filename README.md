@@ -24,7 +24,7 @@ SO THAT my website can handle large amounts of unstructured data
   ## Installation
   Clone repo into your local VScode.
   To download the necessary dependencies please run the following command:
-  - npm i 
+  - npm i <br />
   `Node.js` and `MongoDB` are required to run application.
 
   ## Usage
