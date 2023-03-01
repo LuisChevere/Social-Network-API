@@ -9,7 +9,7 @@ module.exports = {
     },
 
     //Gets a single thought
-    getSingleThough(req, res) {
+    getSingleThought(req, res) {
         Thought.findOne({ _id: req.params.thoughtId })
             .select("-__V")
             .then((thought) =>
